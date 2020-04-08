@@ -1,8 +1,11 @@
 @smoke
-  Feature:xxx
+Feature:E2e for checking UBS Business Solutions Centers Poland Page
 
-  Scenario: Careers Poland
+
+    #Happy Path
+  Scenario: Areas of Work Page e2e
     Given a user opens main Page
     And the user goes to Areas-of-Work
     When the user selects UBS Business Solutions Centers Poland
-    Then the response shows correct content page
+    Then the user can open UBS Business Solutions Centers Poland Page
+
